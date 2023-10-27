@@ -133,7 +133,3 @@ $(document).ready(function () {
     $(".header-text a").addClass("animated fadeInDown").css({ opacity: "0" });
   });
 });
-
-$("form").submit((e) => {
-  e.preventDefault();
-});

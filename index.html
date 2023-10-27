@@ -586,7 +586,7 @@
             <div class="col-md-offset-1 col-md-5 col-sm-6">
               <div class="single-contact-box">
                 <div class="contact-form">
-                  <form>
+                  <form id="contactForm">
                     <div class="row">
                       <div class="col-sm-6 col-xs-12">
                         <div class="form-group">
@@ -597,6 +597,7 @@
                             placeholder="Name*"
                             name="name"
                           />
+                          <p id="errorName"></p>
                         </div>
                         <!--/.form-group-->
                       </div>
@@ -610,6 +611,7 @@
                             placeholder="Email*"
                             name="email"
                           />
+                          <p id="errorEmail"></p>
                         </div>
                         <!--/.form-group-->
                       </div>
@@ -623,9 +625,10 @@
                             type="text"
                             class="form-control"
                             id="subject"
-                            placeholder="Subject"
+                            placeholder="Subject*"
                             name="subject"
                           />
+                          <p id="errorSubject"></p>
                         </div>
                         <!--/.form-group-->
                       </div>
@@ -638,13 +641,18 @@
                           <textarea
                             class="form-control"
                             rows="8"
-                            id="comment"
-                            placeholder="Message"
+                            id="message"
+                            placeholder="Message*"
                           ></textarea>
+                          <p id="errorMessage"></p>
                         </div>
                         <!--/.form-group-->
                       </div>
+
                       <!--/.col-->
+                    </div>
+                    <div class="col-sm-12">
+                      <div id="success"></div>
                     </div>
                     <!--/.row-->
                     <div class="row">
@@ -785,5 +793,6 @@
 
     <!--Custom JS-->
     <script src="assets/js/custom.js"></script>
+    <script src="assets/js/contact.js"></script>
   </body>
 </html>
