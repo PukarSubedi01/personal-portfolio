@@ -869,4 +869,10 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
   .success{
     color:#52db92
   }
+
+  .blog-row{
+    display: flex;
+    justify-content: center;
+  }
+
 /*========================Thank you=================

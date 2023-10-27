@@ -26,3 +26,10 @@ Repository for my personal portfolio reflecting my professional expertise
 6. Created a dynamoDB to store the contact information of the person
 7. Created a lambda to receive the message from the queue and send it to the database
 8. Added SQS trigger to the lambda
+
+### Oct 27
+
+1. Integrated FE application with the BE application
+2. Implemented CI/CD
+3. Wote blog in CI/CD
+4. Created a video
